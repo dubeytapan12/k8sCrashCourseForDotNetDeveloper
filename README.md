@@ -5,7 +5,11 @@
 
 <details>
 <summary> Commands Used in this section- </summary>
-  
+ **Docker build command to build and create docker image**
+
+```bash
+docker build -t your-dockerhub-username/any-repository-name  -f solutionFolder/Dockerfile .
+```  
  **Docker login command to login to Docker Hub**
 
 ```bash
